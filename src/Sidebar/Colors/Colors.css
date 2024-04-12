@@ -1,8 +1,12 @@
 
 .colors-title {
-    margin-top: 20px;
+    margin-top: 10px;
  }
  
  .ttt {
     margin-left: 0;
+ }
+
+ .all {
+   background: linear-gradient(blue, crimson);
  }

@@ -1,7 +1,11 @@
 
-function Button() {
+function Button({onClickHandler, value, title}) {
   return (
-    <div>Button</div>
+    <div>
+      <button onClick={onClickHandler} value={value} className="btns">
+        {title}
+      </button>
+    </div>
   )
 }
 
